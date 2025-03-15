@@ -1,4 +1,4 @@
-def greet_user(username):
+def greet_user(username) -> str:
     """
     Function to print hello world message with username
     Args:
