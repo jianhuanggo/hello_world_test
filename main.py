@@ -5,8 +5,7 @@ def main(username) -> str:
         username (str): Name of the user to greet
     """
     from _tasks.hello_world import greet_user
-    return greet_user(username)  # Call the imported function to get the greeting message
-
+    return greet_user(username)
 
 # Example usage
 if __name__ == "__main__":
