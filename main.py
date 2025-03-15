@@ -1,4 +1,4 @@
-def greet_user(username) -> str:
+def main(username) -> str:
     """
     Function to print hello world message with username
     Args:
@@ -11,4 +11,4 @@ def greet_user(username) -> str:
 # Example usage
 if __name__ == "__main__":
     # Test the function
-    greet_user("John") 
+    main("John")
